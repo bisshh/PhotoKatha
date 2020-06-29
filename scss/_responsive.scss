@@ -1,0 +1,23 @@
+.show-mb {display:none !important;}
+.hide-mb {display:block !important;}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+	
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+	.show-mb {display:block !important;}
+	.hide-mb {display:none !important;}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+	.container {max-width:90%;}
+}

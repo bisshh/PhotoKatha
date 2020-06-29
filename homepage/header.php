@@ -1,0 +1,73 @@
+<?php
+/**
+ * The header for our theme
+ *
+ * This is the template that displays all of the <head> section and everything up until <div id="content">
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package photokatha
+ */
+
+?>
+<!doctype html>
+<html <?php language_attributes(); ?>>
+<head>
+	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+	<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri();?>/js/owl.carousel.min.js"></script>
+	<?php wp_head(); ?>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-WXLBTC2');</script>
+	<!-- End Google Tag Manager -->
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.js"></script>
+      <script src="<?php echo get_template_directory_uri(); ?>/js/respond.min.js"></script>
+	<![endif]-->
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5dfeb57ad8e136ac"></script>
+</head>
+
+<body <?php body_class(); ?>>
+<a href="https://www.techie.com.np" style="display:none;">Techie IT</a>    
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXLBTC2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=2358789964361367&autoLogAppEvents=1"></script>
+<?php wp_body_open(); ?>
+
+<div class="banner ibanner">
+	<header>
+		<div class="container">
+			<div class="row no-gutters">
+				<div class="col-1">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_stylesheet_directory_uri();?>/img/logo-1.png" alt="PhotoKatha logo" class="img-fluid"></a>
+				</div>
+				<div class="col-10 offset-1 d-flex justify-content-between align-items-center">
+					<?php wp_nav_menu( array('theme_location' => 'menu-1') ); ?>
+					<ul class="social">
+						<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<?php if (has_post_thumbnail( $post->ID ) ): ?>		
+		<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
+		<img src="<?php echo $image[0]; ?>" alt="" class="img-fluid">	
+	<?php endif; ?>
+</div>
