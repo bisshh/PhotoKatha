@@ -32,7 +32,7 @@ class CustomMenu
     {
         $url=home_url( "/?s" );
         if ($args->theme_location == 'menu-1') {
-            $items= "<li><a href='/'><i class='fas fa-home'></i></a></li>".$items;
+            //$items= "<li><a href='/'><i class='fas fa-home'></i></a></li>".$items;
             $items .= "<li><a href='javascript:void(0)' class='rdsearch'><i class='fad fa-search'></i></a></li>";
         }
         return $items;

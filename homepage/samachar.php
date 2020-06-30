@@ -9,7 +9,7 @@
             while($loop->have_posts()): 
                 $loop->the_post();
 ?>
-<div class="col-6">
+<div class="col-md-6">
     <div class="image">
         <a href="<?php the_permalink();?>"><img alt="<?php the_title();?>" class="img-fluid" src="<?php echo get_the_post_thumbnail_url( $post->ID,'rd-l-thumb' ); ?>" alt="<?php the_title();?>"></a>
         <div class="teaser">

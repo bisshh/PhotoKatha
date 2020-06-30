@@ -7,7 +7,7 @@
 ?>
 <?php
 
-    $dueDate = date('Y-m-d H:i', strtotime(date('Y-m-d H:i', get_post_timestamp()) . ' + 12 hours')); //12 hours
+    $dueDate = date('Y-m-d H:i', strtotime(date('Y-m-d H:i', get_post_timestamp()) . ' + 48 hours')); //12 hours
     //echo date('Y-m-d H:i', get_post_timestamp()).' : '.date('Y-m-d H:i');
     if(strtotime(date('Y-m-d H:i')) < strtotime($dueDate)):
 ?>
@@ -22,5 +22,6 @@
             </div>
         </div>
     </div>
+    <div class="shadow"></div>
 </div>
 <?php endif; endwhile; endif; wp_reset_postdata();?>

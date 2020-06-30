@@ -180,7 +180,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 add_action( 'after_setup_theme', 'wpdocs_theme_setup' );
 function wpdocs_theme_setup() {
 	add_image_size( 'rd-m-thumb', 400, 225, true ); // 300 pixels wide (and unlimited height)
-	add_image_size( 'rd-l-thumb', 500, 334, true );
+	add_image_size( 'rd-l-thumb', 750, 501, true );
 	add_image_size( 'rd-thumb', 180, 180, true ); // profile Image
 }
 
@@ -508,7 +508,7 @@ function my_custom_excerpt ( $content, $limit = 20, $more = '...' ){
 function wpb_login_logo() { ?>
     <style type="text/css">
         #login h1 a, .login h1 a {
-            background-image: url(<?php echo get_template_directory_uri(); ?>/img/onlinephotokatha-logo.png);
+            background-image: url(<?php echo get_template_directory_uri(); ?>/img/logo.png);
         height: 100px;
     	width: 320px;
         background-size: contain;

@@ -26,7 +26,7 @@
                     <strong>सम्पादक</strong> - अरुण बराल <br>
                     <strong>सुचना बिभाग दर्ता नं.</strong> २१४ / ०७३–७४
                 </address>	
-                <ul>
+                <ul class="social">
                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                     <li><a href="#"><i class="fab fa-youtube"></i></a></li>
@@ -41,6 +41,13 @@
                             echo '<li class="col-md-4"><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></li>';
                         }
                     ?>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h4>महत्वपूर्ण लिंकहरु</h4>
+                <ul class="link">
+                    <li><a href="https://www.kpa.org.np/" target="_blank"><i class="fal fa-camera-retro"></i> Kathmandu Photographer Association</a></li>
+                    <li><a href="https://www.kpa.org.np/" target="_blank"><i class="fal fa-camera-retro"></i> Kathmandu Photographer Association</a></li>
                 </ul>
             </div>
         </div>

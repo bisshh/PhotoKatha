@@ -74,14 +74,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		nav:true,
 		autoplay:true,
 		autoplayTimeout:5000,
-		autoplayHoverPause:true,
+		autoplayHoverPause:false,
 		responsive:{
 			0:{
 				items:1
 			}
 		}
 	})
-	</script>
+	</script>	
 </div>
 
 <?php if ( is_active_sidebar( 'after-menu' ) ) : ?>	

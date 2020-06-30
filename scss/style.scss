@@ -7,7 +7,7 @@
 // Component 
 @import "theme.scss";
 
-a, a:hover, img, img:hover, .item, .item:hover, .date, .date:hover, .btn, .btn:hover {@include transition(0.1s);}
+a, a:hover, img, img:hover, .btn, .btn:hover, *, *:hover {@include transition(0.6s);}
 
 .form-control {
 	&:focus {box-shadow:none !important; outline: none;}
@@ -43,17 +43,21 @@ body, html {height:100%;}
 body {background:#2d3436;}
 
 .banner {position: relative; height: 90%; overflow: hidden; background:$black;
+    .shadow {content: ''; position: absolute; bottom: 0; left: 0; height: 30%; z-index: 2; width: 100%;  background-image: linear-gradient(to bottom,transparent,rgba(46,52,54,.1),  rgba(46,52,54,1));}
     header {position: absolute; top:0; width:100%; z-index: 9;
         img {-webkit-border-radius: 0 0 10px 10px; border-radius: 0 0 10px 10px;}
     }
     .owl-carousel{height:100%; position: relative;
-        .teaser {position: absolute; bottom:30%; width:100%; z-index: 99;
-            h2 {background:transparentize($white, 0.2); padding:$pad - 5 $pad * 2; font-size:$fnt-sz * 3; font-weight: bold; display: inline;
-                &:hover {background:$white;}
+        &:before {content: ''; position: absolute; bottom: 0; left: 0; height: 30%; z-index: 2; width: 100%;  background-image: linear-gradient(to bottom,transparent,rgba(46,52,54,.1),  rgba(46,52,54,1));}
+        .teaser {position: absolute; bottom:20%; width:100%; z-index: 99;
+            h2 {padding:$pad - 5 $pad * 2; font-size:$fnt-sz * 3; font-weight: bold; line-height: $fnt-sz * 3 + 6;
+                a {color:$white;}
             }
         }
         .item{height: 100%;
-            img {margin:0 auto;}
+            img {margin:0 auto; opacity: 0.8;
+                &:hover {opacity:1;}
+            }
         } 
     } 
     .owl-dots {bottom:0; position: absolute; width:100%; bottom:10px;}
@@ -117,6 +121,9 @@ header {background:transparentize($black, 0.3);
         }
     }
     .layout-1 {text-align: center;
+        .col-md-6 {
+            &:first-child, &:nth-child(2) {margin-bottom:$margin * 2;}
+        }
         .image {overflow: hidden; position: relative; @include transition(0.7s); background:$black; height: 445px; border:2px solid transparentize($white, 0.2);
             img {margin-bottom: -3px; transform: scale(1.03);}
             &:after {content: ''; position: absolute; top: 0; left: 0; height: 100%; width: 100%;  background-image: linear-gradient(to bottom,transparent,rgba(0,0,0,.40));}
@@ -137,7 +144,7 @@ header {background:transparentize($black, 0.3);
             img {margin-bottom: -3px; transform: scale(1.03); object-fit: cover; height:100%;}
             &:after {content: ''; position: absolute; top: 0; left: 0; height: 100%; width: 100%;  background-image: linear-gradient(to bottom,transparent,rgba(0,0,0,.40));}
             .teaser {padding: $pad + 5; position: absolute; color:$white; width: 100%; bottom:0; z-index: 9;
-                h2 {font-size: $fnt-sz * 2 + 6; font-weight: bold; margin-bottom: $margin - 10;}
+                h2 {font-size: $fnt-sz + 10; font-weight: bold; margin-bottom: $margin - 10;}
             }
             &:hover {@include transition(0.7s);
                 img {transform: scale(1.2);}
@@ -239,9 +246,17 @@ footer {padding-top:$pad * 2; background:lighten($black, 2%); color:darken($whit
     h4 {font-size:$fnt-sz * 2; font-weight: 300; margin-bottom: $margin;}
     .f-img {margin-top:-30px; background:#e7e8e8; padding: $pad 0;}
     address {font-size:$fnt-sz + 4; line-height: 30px;}
-    ul {margin: $margin 0;
+    .social {margin: $margin 0;
         li {display: inline-block; 
             a {width:40px; height:40px; line-height: 40px; display: block; text-align: center; background:lighten($black, 10%);}
+        }
+    }
+    .category {
+        li {line-height: 30px;}
+    }
+    .link {
+        li {display:block;
+            a {display: block; padding:$pad - 10 0;}
         }
     }
     .f-btm {background:$black; padding: $pad 0; font-weight: 300; margin-top:$margin * 2;}
