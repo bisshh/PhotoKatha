@@ -146,7 +146,7 @@ get_header();
 				<?php endif;?>
 			</div><!--/ads-->
 			<div class="row layout-1">
-				<?php get_template_part('homepage/samachar');?> <!-- /Photo -->
+				<?php get_template_part('homepage/photo-series');?> <!-- /Photo -->
 			</div>
 			<div class="mar-40"></div>
 		</div>
