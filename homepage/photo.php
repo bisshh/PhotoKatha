@@ -1,9 +1,9 @@
 <div class="col-12">
     <div class="rd-title">
-        <p><span>फोटो</span> समाचार</p>
+        <p><span><img src="<?php echo get_template_directory_uri(); ?>/img/model.png" alt=""> GLA</span>MOUR</p>
     </div>
 </div>							
-<?php $i=0; $args = array('showposts' =>4, 'cat' => '1');
+<?php $i=0; $args = array('showposts' =>4, 'cat' => '6');
     $loop = new WP_Query( $args );
         if ( $loop->have_posts() ) : 
             while($loop->have_posts()): 

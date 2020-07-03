@@ -1,9 +1,9 @@
 <div class="col-12">
     <div class="rd-title">
-        <p><span><i class="fal fa-camera-retro"></i> फोटो</span> समाचार</p>
+        <p><span><i class="fas fa-images"></i> PHOTO</span> SERIES</p>
     </div>
 </div>							
-<?php $i=0; $args = array('showposts' =>4, 'cat' => '1');
+<?php $i=0; $args = array('showposts' =>4, 'cat' => '7');
     $loop = new WP_Query( $args );
         if ( $loop->have_posts() ) : 
             while($loop->have_posts()): 

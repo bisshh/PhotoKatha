@@ -46,7 +46,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=2358789964361367&autoLogAppEvents=1"></script>
 <?php wp_body_open(); ?>
-
+<?php if ( is_active_sidebar( 'top-ad' ) ) : ?>	
+<div class="col-md-12">
+	<div class="rd-ads">
+		<?php dynamic_sidebar('top-ad');?>
+	</div>
+</div>
+<?php endif;?>
 <div class="banner ibanner">
 	<header>
 		<div class="container">

@@ -49,7 +49,7 @@ body {background:#2d3436;}
     }
     .owl-carousel{height:100%; position: relative;
         &:before {content: ''; position: absolute; bottom: 0; left: 0; height: 30%; z-index: 2; width: 100%;  background-image: linear-gradient(to bottom,transparent,rgba(46,52,54,.1),  rgba(46,52,54,1));}
-        .teaser {position: absolute; bottom:20%; width:100%; z-index: 99;
+        .teaser {position: absolute; bottom:25%; width:100%; z-index: 99;
             h2 {padding:$pad - 5 $pad * 2; font-size:$fnt-sz * 3; font-weight: bold; line-height: $fnt-sz * 3 + 6;
                 a {color:$white;}
             }
@@ -112,9 +112,13 @@ header {background:transparentize($black, 0.3);
     }
 }
 
+.mar-20 {height: 20px;}
 .mar-40 {height: 40px;}
 
 .home {
+    .rd-ads {
+        img {border:1px solid $white;}
+    }
     .rd-title {font-size:$fnt-sz * 3; font-weight: bold; color:$white; text-align: center;
         p {display: block; margin:$margin 0 $margin * 2; padding: $pad; border-bottom:2px solid $theme-color;
             span {color:$theme-color;}
@@ -225,7 +229,7 @@ header {background:transparentize($black, 0.3);
 		.post-entry {padding:$pad * 2;}
 		.rd-fb-comments {padding:$pad + 5; background:darken($white, 1%);}
     }
-    .rd-popular {
+    .rd-popular {margin-bottom:$margin;
         .rd-title {font-size:$fnt-sz * 2; font-weight: bold; color:$rd-color; text-align: center;
             p {display: block; margin:$margin 0 $margin; padding: $pad; border-bottom:2px solid $theme-color;
                 span {color:$theme-color;}

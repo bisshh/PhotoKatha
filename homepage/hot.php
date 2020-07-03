@@ -1,7 +1,12 @@
 <div class="hot">
 	<div class="container">
 		<div class="owl-carousel">
-			<?php $i=0; $args = array('showposts' =>4, 'tag' => 'hot');
+			<?php $i=0; $args = array('showposts' =>4, 'meta_query' => array(
+        array(
+            'key'   => 'hot',
+            'value' => '1',
+        )
+    ));
                     $loop = new WP_Query( $args );
                         if ( $loop->have_posts() ) : 
                             while($loop->have_posts()): 

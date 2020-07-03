@@ -81,10 +81,70 @@ get_header();
 				<?php get_template_part('homepage/samachar');?> <!-- /Samachar -->
 			</div>
 			<div class="mar-40"></div>
+			<div class="row">
+				<?php if ( is_active_sidebar( 'after-cover-top-full' ) ) : ?>	
+				<div class="col-md-12">
+					<div class="rd-ads">
+						<?php dynamic_sidebar('after-cover-top-full');?>
+					</div>
+				</div>
+				<?php endif;?>
+				<?php if ( is_active_sidebar( 'after-cover-small-left' ) ) : ?>	
+				<div class="col-md-6">
+					<div class="rd-ads">
+						<?php dynamic_sidebar('after-cover-small-left');?>
+					</div>
+				</div>
+				<?php endif;?>
+				<?php if ( is_active_sidebar( 'after-cover-small-right' ) ) : ?>	
+				<div class="col-md-6">
+					<div class="rd-ads">
+						<?php dynamic_sidebar('after-cover-small-right');?>
+					</div>
+				</div>
+				<?php endif;?>
+				<?php if ( is_active_sidebar( 'after-cover-bottom-full' ) ) : ?>	
+				<div class="col-md-12">
+					<div class="rd-ads">
+						<?php dynamic_sidebar('after-cover-bottom-full');?>
+					</div>
+				</div>
+				<?php endif;?>
+			</div><!--/ads-->
 			<div class="row layout-2">
 				<?php get_template_part('homepage/photo');?> <!-- /Photo -->
 			</div>
 			<div class="mar-40"></div>
+			<div class="row">
+				<?php if ( is_active_sidebar( 'after-glamour-top-full' ) ) : ?>	
+				<div class="col-md-12">
+					<div class="rd-ads">
+						<?php dynamic_sidebar('after-glamour-top-full');?>
+					</div>
+				</div>
+				<?php endif;?>
+				<?php if ( is_active_sidebar( 'after-glamour-small-left' ) ) : ?>	
+				<div class="col-md-6">
+					<div class="rd-ads">
+						<?php dynamic_sidebar('after-glamour-small-left');?>
+					</div>
+				</div>
+				<?php endif;?>
+				<?php if ( is_active_sidebar( 'after-glamour-small-right' ) ) : ?>	
+				<div class="col-md-6">
+					<div class="rd-ads">
+						<?php dynamic_sidebar('after-glamour-small-right');?>
+					</div>
+				</div>
+				<?php endif;?>
+				<?php if ( is_active_sidebar( 'after-glamour-bottom-full' ) ) : ?>	
+				<div class="col-md-12">
+					<div class="rd-ads">
+						<?php dynamic_sidebar('after-coglamourver-bottom-full');?>
+					</div>
+				</div>
+				<?php endif;?>
+			</div><!--/ads-->
 			<div class="row layout-1">
 				<?php get_template_part('homepage/samachar');?> <!-- /Photo -->
 			</div>
