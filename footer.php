@@ -20,11 +20,11 @@
             <div class="col-md-4">
                 <h4>Photo Katha</h4>
                 <address>
-                    +977-1-4780076, +977-1-4786489 <br>
+                    +977-1-4444444, +977-1-4444444 <br>
                     info@photokatha.news <br>
-                    <strong>अध्यक्ष/प्रधान सम्पादक</strong> - धर्मराज भुसाल <br>
-                    <strong>सम्पादक</strong> - अरुण बराल <br>
-                    <strong>सुचना बिभाग दर्ता नं.</strong> २१४ / ०७३–७४
+                    <strong>अध्यक्ष/प्रधान सम्पादक</strong> - दिपेन्द श्रेष्ठ <br>
+                    <strong>सम्पादक</strong> - दिपेन्द श्रेष्ठ <br>
+                    <strong>सुचना बिभाग दर्ता नं.</strong> -
                 </address>	
                 <ul class="social">
                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
