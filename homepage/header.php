@@ -62,12 +62,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 				<div class="col-10 offset-1 d-flex justify-content-between align-items-center">
 					<?php wp_nav_menu( array('theme_location' => 'menu-1') ); ?>
-					<ul class="social">
+					<!-- <ul class="social">
 						<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
 						<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
 						<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
 						<li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
-					</ul>
+					</ul> -->
 				</div>
 			</div>
 		</div>
