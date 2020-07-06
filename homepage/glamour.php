@@ -1,6 +1,6 @@
 <div class="col-12">
     <div class="rd-title">
-        <p><span><img src="<?php echo get_template_directory_uri(); ?>/img/model.png" alt=""> GLA</span>MOUR</p>
+        <p><span>GLA</span>MOUR</p>
     </div>
 </div>							
 <?php $i=0; $args = array('showposts' =>4, 'cat' => '6');

@@ -112,7 +112,7 @@ get_header();
 				<?php endif;?>
 			</div><!--/ads-->
 			<div class="row layout-2">
-				<?php get_template_part('homepage/photo');?> <!-- /Photo -->
+				<?php get_template_part('homepage/glamour');?> <!-- /Glamour -->
 			</div>
 			<div class="mar-40"></div>
 			<div class="row">
