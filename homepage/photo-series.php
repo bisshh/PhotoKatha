@@ -1,6 +1,6 @@
 <div class="col-12">
     <div class="rd-title">
-        <p><span><i class="fas fa-images"></i> PHOTO</span> SERIES</p>
+        <p><span>PHOTO</span> SERIES</p>
     </div>
 </div>							
 <?php $i=0; $args = array('showposts' =>4, 'cat' => '7');

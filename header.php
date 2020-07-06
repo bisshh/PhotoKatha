@@ -60,7 +60,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="col-1">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_stylesheet_directory_uri();?>/img/logo-1.png" alt="PhotoKatha logo" class="img-fluid"></a>
 				</div>
-				<div class="col-10 offset-1 d-flex justify-content-between align-items-center">
+				<div class="col-10 d-flex justify-content-between align-items-center">
 					<?php wp_nav_menu( array('theme_location' => 'menu-1') ); ?>
 					<ul class="social">
 						<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
