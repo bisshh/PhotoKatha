@@ -1,5 +1,5 @@
 <?php get_header();?>
-<div class=" rd-category-page">
+<div class="rd-category-page main-contain mt-3">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -13,7 +13,7 @@
             </div>
         
             <div class="col-md-3">
-                <div class="rd-popular p-3">
+                <div class="rd-popular">
                 <?php get_template_part('template-parts/popular');?>
                 </div>
                     <?php get_sidebar();?>

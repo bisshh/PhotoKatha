@@ -242,6 +242,16 @@ header {background:transparentize($black, 0.3);
     }
 }
 
+.rd-category-page {padding:$pad * 3 0;
+	h1 {font-size:$fnt-sz * 2;}
+	.cat-post {border-radius:10px; margin-bottom:$margin + 10; overflow: hidden; border:1px solid darken($white, 20%);
+		img {width:100%;}
+		.cat-info {padding:$pad; background:$white; margin-top:-5px;
+			h3 {font-size:$fnt-sz + 6;}
+		}
+	}
+}
+
 .rd-ads {margin-bottom:$margin;
     img {width:100%;}
 }
