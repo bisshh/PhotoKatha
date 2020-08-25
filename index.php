@@ -130,6 +130,17 @@ get_header();
 				<?php get_template_part('homepage/travel-series');?> <!-- /Photo -->
 			</div>
 			<div class="mar-40"></div>
+			<div class="row hot">
+				<div class="col-12">
+					<div class="rd-title">
+						<p><span>CUL</span>TURE</p>
+					</div>
+				</div>	
+				<div class="col-md-12">
+					<?php get_template_part('homepage/culture');?> <!-- /Hot -->
+				</div>
+			</div>
+			<div class="mar-40"></div>
 			<div class="row layout-2">
 				<?php get_template_part('homepage/glamour');?> <!-- /Glamour -->
 			</div>
