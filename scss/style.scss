@@ -65,6 +65,7 @@ body {background:#2d3436;}
 .ibanner {height: 70%; position: relative;
     &:before {content: ''; position: absolute; bottom: 0; left: 0; height: 50%; z-index: 99; width: 100%;  background-image: linear-gradient(to bottom,transparent,rgba(255,255,255,.1),  rgba(255,255,255,1));}
     img {width:100%; object-fit: cover;}
+    .fill {height:100%;}
 }
 header {background:transparentize($black, 0.3); 
     img {position: absolute;}

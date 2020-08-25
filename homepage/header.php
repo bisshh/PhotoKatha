@@ -74,6 +74,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</header>
 	<?php if (has_post_thumbnail( $post->ID ) ): ?>		
 		<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
-		<img src="<?php echo $image[0]; ?>" alt="" class="img-fluid">	
+		<img src="<?php echo $image[0]; ?>" alt="" class="img-fluid fill">	
 	<?php endif; ?>
 </div>
