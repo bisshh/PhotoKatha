@@ -33,7 +33,7 @@
                             <?php endif; ?>
                         </span>
                     </span>
-                    <span class="rddate" itemprop="datePublished"><i class="fal fa-clock"></i> <?php echo the_date(); ?> गते <?php echo the_time(); ?> मा प्रकाशित</span>
+                    <span class="rddate" itemprop="datePublished"><i class="fal fa-clock"></i> Published on <?php echo the_date(); ?> <?php echo the_time(); ?></span>
                 </div>
             </div>
         </div>

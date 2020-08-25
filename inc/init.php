@@ -1,5 +1,5 @@
 <?php
-$files=["date/NepaliCalendar","date/TechieCalendar","menu/custom"];
+$files=["menu/custom"];
 
 foreach($files as $file){
     $file_name=__DIR__."/plugin/".$file.".php";
