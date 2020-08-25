@@ -56,7 +56,7 @@
 			<?php else : ?>			
 		<?php endif; ?>
 
-		<span><strong>क्याटेगोरी : </strong>
+		<span><strong>Category : </strong>
 			<?php $taxonomy = 'category';
 
 			// Get the term IDs assigned to post.
@@ -86,7 +86,7 @@
 		<br>
 		<?php 
 			if( $tags = get_the_tags() ) {
-				echo '<strong>ट्याग :</strong> ';
+				echo '<strong>Tag :</strong> ';
 				foreach( $tags as $tag ) {
 					$sep = ( $tag === end( $tags ) ) ? '' : ', ';
 					echo '<a href="' . get_term_link( $tag, $tag->taxonomy ) . '">#' . $tag->name . '</a>' . $sep;
@@ -105,7 +105,7 @@
 		<hr>
 		<div class="news-detail">
 		<div class="rd-fb-comments">
-			<h3><i class="fad fa-comments"></i> प्रतिक्रिया दिनुहोस</h3>
+			<h3><i class="fad fa-comments"></i> Write Your Comment</h3>
 			<div class="fb-comments" data-href="<?php echo get_permalink() ?>" data-numposts="5" data-width="100%"></div>
 		</div>
 		<hr>

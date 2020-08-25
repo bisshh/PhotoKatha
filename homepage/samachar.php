@@ -1,6 +1,6 @@
 <div class="col-12">
     <div class="rd-title">
-        <p><span><i class="fal fa-camera-retro"></i> फोटो</span> समाचार</p>
+        <p><span><i class="fal fa-camera-retro"></i> Photo</span> News</p>
     </div>
 </div>							
 <?php $i=0; $args = array('showposts' =>4, 'cat' => '1');

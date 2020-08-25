@@ -1,5 +1,5 @@
 <div class="rd-title">
-    <p><span>धेरै</span> पढिएका</p>
+    <p><span>Top</span> Posts</p>
 </div>
 <div class="rd-wrap">
     

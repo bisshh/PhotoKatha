@@ -22,8 +22,8 @@
                 <address>
                     +977-9841565626<br>
                     info@photokatha.news <br>
-                    <strong>अध्यक्ष/प्रधान सम्पादक</strong> - दिपेन्द श्रेष्ठ <br>
-                    <strong>सम्पादक</strong> - दिपेन्द श्रेष्ठ <br>
+                    <strong>Chairman</strong> - Dipendra Shrestha <br>
+                    <strong>Editor</strong> - Dipendra Shrestha <br>
                     <!-- <strong>सुचना बिभाग दर्ता नं.</strong> - -->
                 </address>	
                 <ul class="social">
@@ -33,7 +33,7 @@
                 </ul>				
             </div>
             <div class="col-md-4">
-                <h4>क्याटेगोरी</h4>
+                <h4>Category</h4>
                 <ul class="category row">
                     <?php 
                         $categories = get_categories();
@@ -44,7 +44,7 @@
                 </ul>
             </div>
             <div class="col-md-3">
-                <h4>महत्वपूर्ण लिंकहरु</h4>
+                <h4>Important Links</h4>
                 <ul class="link">
                     <li><a href="https://www.kpa.org.np/" target="_blank"><i class="fal fa-camera-retro"></i> Kathmandu Photographer Association</a></li>
                     <li><a href="https://www.kpa.org.np/" target="_blank"><i class="fal fa-camera-retro"></i> Kathmandu Photographer Association</a></li>
