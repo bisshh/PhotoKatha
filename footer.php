@@ -56,7 +56,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <p>© २०२० photokatha.news सर्वाधिकार सुरक्षित</p>
+                    <p>© 2020, All Rights Reserved with photokatha.news</p>
                 </div>
             </div>
         </div>
