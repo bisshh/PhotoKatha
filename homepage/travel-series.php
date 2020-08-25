@@ -1,15 +1,15 @@
 <div class="col-12">
     <div class="rd-title">
-        <p><span>PHOTO</span> SERIES</p>
+        <p><span>TRAVEL</span> SERIES</p>
     </div>
 </div>							
-<?php $i=0; $args = array('showposts' =>2, 'cat' => '7');
+<?php $i=0; $args = array('showposts' =>3, 'cat' => '9');
     $loop = new WP_Query( $args );
         if ( $loop->have_posts() ) : 
             while($loop->have_posts()): 
                 $loop->the_post();
 ?>
-<div class="col-md-6">
+<div class="col-md-4">
     <div class="image">
         <a href="<?php the_permalink();?>"><img alt="<?php the_title();?>" class="img-fluid" src="<?php echo get_the_post_thumbnail_url( $post->ID,'rd-l-thumb' ); ?>" alt="<?php the_title();?>"></a>
         <div class="teaser">
