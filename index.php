@@ -176,7 +176,7 @@ get_header();
 				<?php endif;?>
 			</div><!--/ads-->
 			<div class="row layout-1">
-				<?php get_template_part('homepage/portfolio');?> <!-- /Photo -->
+				<?php get_template_part('homepage/portfolio');?> <!-- /Portfolio -->
 			</div>
 			<div class="mar-40"></div>
 		</div>
