@@ -24,7 +24,7 @@
                 <div class="row d-flex align-items-center mb-3 pb-3 border-bottom">
                     <div class="col-10"><a href="<?php the_permalink();?>"><?php the_title(); ?></a></div>
                     <div class="col-2 pr-0">
-                        <span><?php echo convertNumbertoNepali($i++) ?></span>                
+                        <span><?php echo $i++ ?></span>                
                     </div>
                 </div>
             <?php

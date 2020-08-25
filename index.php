@@ -111,6 +111,16 @@ get_header();
 				</div>
 				<?php endif;?>
 			</div><!--/ads-->
+			<div class="row hot">
+				<div class="col-12">
+					<div class="rd-title">
+						<p><span>COVER </span>STORY</p>
+					</div>
+				</div>	
+				<div class="col-md-12">
+					<?php get_template_part('homepage/cover');?> <!-- /Hot -->
+				</div>
+			</div>
 			<div class="row layout-2">
 				<?php get_template_part('homepage/glamour');?> <!-- /Glamour -->
 			</div>
