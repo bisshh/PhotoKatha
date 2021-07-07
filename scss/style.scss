@@ -256,7 +256,7 @@ header {background:transparentize($black, 0.3);
     img {width:100%;}
 }
 
-footer {padding-top:$pad * 2; background:lighten($black, 2%); color:darken($white, 10%);
+footer {padding-top:$pad * 2; background: url('../img/f-bg.png') right lighten($black, 2%); background-size: cover; color:darken($white, 10%);
     h4 {font-size:$fnt-sz * 2; font-weight: 300; margin-bottom: $margin;}
     .f-img {margin-top:-30px; background:#e7e8e8; padding: $pad 0;}
     address {font-size:$fnt-sz + 4; line-height: 30px;}
