@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Creating_an_Error_404_Page
  *
- * @package healthaawaj
+ * @package photokatha
  */
 
 get_header();
@@ -21,8 +21,8 @@ get_header();
 				</div>
 				<div class="col-md-6">
 					<!-- <a href="/"> <img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.svg" class="logo" alt="Logo" style="height:80px;"></a> -->
-					<h1><?php esc_html_e( 'माफ गर्नुहोला, पृष्ठ भेटिएन', 'healthaawaj' ); ?></h1>
-					<p><?php esc_html_e( 'तपाईले खोज्नुभएको पृष्ठ भेटिएन । पृष्ठ सरेको वा हटाईएको हुनसक्छ..', 'healthaawaj' ); ?></p>
+					<h1><?php esc_html_e( 'माफ गर्नुहोला, पृष्ठ भेटिएन', 'photokatha' ); ?></h1>
+					<p><?php esc_html_e( 'तपाईले खोज्नुभएको पृष्ठ भेटिएन । पृष्ठ सरेको वा हटाईएको हुनसक्छ..', 'photokatha' ); ?></p>
 					<a href="/" class="btn btn-lg btn-default"><i class="fal fa-long-arrow-left"></i> गृहपृष्ठमा जानुहोस</a>
 					<p>अर्को पृष्ठ खोज्नुहोस् <i class="fal fa-long-arrow-down"></i></p>
 					<div class="search-wrap row">

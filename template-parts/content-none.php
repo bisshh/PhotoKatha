@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package healthaawaj
+ * @package photokatha
  */
 
 ?>
@@ -13,7 +13,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h1><?php esc_html_e( 'Nothing Found', 'healthaawaj' ); ?></h1>
+				<h1><?php esc_html_e( 'Nothing Found', 'photokatha' ); ?></h1>
 
 				<div class="page-content">
 					<?php
@@ -22,7 +22,7 @@
 						printf(
 							'<p>' . wp_kses(
 								/* translators: 1: link to WP admin new post page. */
-								__( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'healthaawaj' ),
+								__( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'photokatha' ),
 								array(
 									'a' => array(
 										'href' => array(),
@@ -35,14 +35,14 @@
 					elseif ( is_search() ) :
 						?>
 
-						<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'healthaawaj' ); ?></p>
+						<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'photokatha' ); ?></p>
 						<?php
 						get_search_form();
 
 					else :
 						?>
 
-						<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'healthaawaj' ); ?></p>
+						<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'photokatha' ); ?></p>
 						<?php
 						get_search_form();
 

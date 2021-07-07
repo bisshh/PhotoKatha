@@ -36,7 +36,7 @@
 			sprintf(
 				wp_kses(
 					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'healthaawaj' ),
+					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'photokatha' ),
 					array(
 						'span' => array(
 							'class' => array(),

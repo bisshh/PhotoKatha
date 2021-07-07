@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
  *
- * @package healthaawaj
+ * @package photokatha
  */
 
 get_header();
@@ -19,7 +19,7 @@ get_header();
 				<h1>
 					<?php
 					/* translators: %s: search query. */
-					printf( esc_html__( 'तपाईले खोज्नुभएको शब्द: %s', 'healthaawaj' ), '<span style="text-decoration:underline; color:#30b774;">' . get_search_query() . '</span>' );
+					printf( esc_html__( 'तपाईले खोज्नुभएको शब्द: %s', 'photokatha' ), '<span style="text-decoration:underline; color:#30b774;">' . get_search_query() . '</span>' );
 					?> संग सम्बन्धित 
 				</h1>
 				</div>
