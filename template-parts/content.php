@@ -17,7 +17,7 @@
 	</div>
 	<div class="col-md-12">
 		<?php if (has_post_thumbnail( $post->ID ) ): ?>
-			<div class="img-area mb-3" itemscope="" itemtype="http://schema.org/ImageObject">
+			<div class="img-area text-center mb-3" itemscope="" itemtype="http://schema.org/ImageObject">
 				<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
 				<img src="<?php echo $image[0]; ?>" alt="" class="img-fluid">	
 				<div class="fill" style="background-image: url('<?php echo $image[0]; ?>')"></div>
