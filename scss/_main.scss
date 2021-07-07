@@ -2,6 +2,13 @@
 
 $mukta: 'Mukta', sans-serif;
 
+.s-line {white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.d-line {display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;  overflow: hidden;}
+.t-line {display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;  overflow: hidden;}
+.f-line {display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical;  overflow: hidden;}
+.fi-line {display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical;  overflow: hidden;}
+.si-line {display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical;  overflow: hidden;}
+
 .font-family {
 	font-weight:400;
 	font-family: $mukta;

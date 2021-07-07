@@ -54,7 +54,6 @@
     <?php else : ?>
     <?php endif; ?>
 </div>
-<hr>
 <?php if ( is_active_sidebar( 'after-title' ) ) : ?>
     <div class="col-12">
         <div class="rd-ads">

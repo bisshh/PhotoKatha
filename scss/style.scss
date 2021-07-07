@@ -276,5 +276,9 @@ footer {padding-top:$pad * 2; background:lighten($black, 2%); color:darken($whit
     .f-btm {background:$black; padding: $pad 0; font-weight: 300; margin-top:$margin * 2;}
 }
 
+.related-post {
+    a {color: $rd-color !important;}
+}
+
 // Responsive
 @import "responsive.scss";

@@ -1,5 +1,5 @@
 <div class="related-post">
-	<div class="row">
+	<div class="row d-flex justify-content-center">
 		<div class="col-md-12">
 			<div class="rd-title text-center">
 				<h2><span>Related Post</span></h2>
@@ -13,7 +13,7 @@
 					<img src="<?php echo get_the_post_thumbnail_url( $post->ID,'rd-m-thumb' ); ?>" alt="<?php echo wp_trim_words( get_the_title(), 10 ); ?>" class="img-fluid rounded">
 				</a>
 				</div>
-				<h4><a href="<?php the_permalink();?>"><?php echo wp_trim_words( get_the_title(), 8 ); ?></a></h4>
+				<h4 class="d-line"><a href="<?php the_permalink();?>"><?php echo wp_trim_words( get_the_title(), 8 ); ?></a></h4>
 			</div>
 		</div>	
 		<?php if(++$i%2==0){echo '';} endwhile; wp_reset_postdata();?>
