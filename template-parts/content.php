@@ -9,9 +9,9 @@
 
 ?>
 
-<article class="row" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article class="row justify-content-center" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	
-	<div class="col-md-9 border-right">
+	<div class="col-md-10">
 
 		<?php get_template_part('template-parts/single-heading');?>
 
@@ -110,15 +110,6 @@
 		</div>
 		<hr>
 		<?php get_template_part('related');?><!-- /related post -->
-		</div>
-	</div>
-
-	<div class="col-md-3">
-		<div class="rd-popular">
-			<?php get_template_part('template-parts/popular');?> <!-- /Popular News -->
-		</div>
-		<div class="rd-ads">
-			<?php dynamic_sidebar('sidebar');?>
 		</div>
 	</div>
 
