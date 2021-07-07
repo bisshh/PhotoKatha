@@ -18,12 +18,13 @@
                 <a href="/"><img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" alt="Photokatha logo" class="img-fluid f-img"></a>
             </div>
             <div class="col-md-4 col-10">
-                <h4>Photo Katha</h4>
+                <p>Photokatha.news is a photojurnalism news site, based from Kathmandu, Nepal, tells the stories via images.</p> <br>
                 <address>
                     +977-9841565626<br>
                     info@photokatha.news <br>
-                    <strong>Chairman</strong> - Dipendra Shrestha <br>
+                    <strong>Chairman</strong> - Bed Bahadur Shrestha <br>
                     <strong>Editor</strong> - Dipendra Shrestha <br>
+                    <strong>Photo Journalist</strong> - Sunny Shrestha <br>
                     <!-- <strong>सुचना बिभाग दर्ता नं.</strong> - -->
                 </address>	
                 <ul class="social">

@@ -55,9 +55,6 @@
     <?php endif; ?>
 </div>
 <hr>
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<div class="addthis_inline_share_toolbox"></div>
-<hr>
 <?php if ( is_active_sidebar( 'after-title' ) ) : ?>
     <div class="col-12">
         <div class="rd-ads">
