@@ -53,25 +53,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</div>
 </div>
 <?php endif;?>
+
 <div class="banner ibanner">
 	<header>
 		<div class="container">
-			<div class="row no-gutters">
-				<div class="col-1">
+			<div class="row g-0">
+				<div class="col-md-1 col-2">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_stylesheet_directory_uri();?>/img/logo-1.png" alt="PhotoKatha logo" class="img-fluid"></a>
 				</div>
-				<div class="col-10 d-flex justify-content-between align-items-center">
+				<div class="col-md-10 col-10">
 					<?php wp_nav_menu( array('theme_location' => 'menu-1') ); ?>
-					<!-- <ul class="social">
-						<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
-					</ul> -->
 				</div>
 			</div>
 		</div>
-	</header>
+	</header>	
+
 	<?php if (has_post_thumbnail( $post->ID ) ): ?>		
 		<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
 		<img src="<?php echo $image[0]; ?>" alt="" class="img-fluid fill">	

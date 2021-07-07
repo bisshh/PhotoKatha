@@ -126,7 +126,7 @@ add_action( 'after_setup_theme', 'photokatha_content_width', 0 );
  * Enqueue scripts and styles.
  */
 function photokatha_scripts() {
-	wp_enqueue_style( 'bootstrap-style', get_stylesheet_directory_uri().'/css/bootstrap.min.css' );
+	wp_enqueue_style( 'bootstrap-style', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' );
 	wp_enqueue_style( 'owl-carousel-style', get_stylesheet_directory_uri().'/css/owl.carousel.min.css' );
 	wp_enqueue_style( 'owl-theme-default-style', get_stylesheet_directory_uri().'/css/owl.theme.default.min.css' );
 	wp_enqueue_style( 'photokatha-style', get_stylesheet_uri(), array(), _S_VERSION );
@@ -134,9 +134,8 @@ function photokatha_scripts() {
 	wp_style_add_data( 'photokatha-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'photokatha-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
-	wp_enqueue_script( 'popper-js', 'https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'moment-js', 'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js', array(), _S_VERSION, true );
-	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'techie-js', get_template_directory_uri() . '/js/techie.js', array(), _S_VERSION, true );
 
 	wp_enqueue_script( 'photokatha-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), _S_VERSION, true );

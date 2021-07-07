@@ -32,31 +32,13 @@
                     <li><a href="#"><i class="fab fa-youtube"></i></a></li>
                 </ul>				
             </div>
-            <div class="col-md-4">
-                <h4>Category</h4>
-                <ul class="category row">
-                    <?php 
-                        $categories = get_categories();
-                        foreach($categories as $category) {
-                            echo '<li class="col-md-4"><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></li>';
-                        }
-                    ?>
-                </ul>
-            </div>
-            <div class="col-md-3">
-                <h4>Important Links</h4>
-                <ul class="link">
-                    <li><a href="https://www.kpa.org.np/" target="_blank"><i class="fal fa-camera-retro"></i> Kathmandu Photographer Association</a></li>
-                    <li><a href="https://www.kpa.org.np/" target="_blank"><i class="fal fa-camera-retro"></i> Kathmandu Photographer Association</a></li>
-                </ul>
-            </div>
         </div>
     </div>
     <div class="f-btm">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <p>© 2020, All Rights Reserved with photokatha.news</p>
+                    <p>© 2021, All Rights Reserved with photokatha.news</p>
                 </div>
             </div>
         </div>

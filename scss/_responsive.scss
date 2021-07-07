@@ -11,6 +11,8 @@
 	.show-mb {display:block !important;}
 	.hide-mb {display:none !important;}
 	.banner {height:auto;}
+	header img {width: 100%;}
+	header ul {display: flex; flex-wrap: nowrap; white-space: nowrap; overflow-y: visible;}
 }
 
 // Large devices (desktops, 992px and up)
