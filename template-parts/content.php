@@ -14,7 +14,8 @@
 	<div class="col-md-10">
 
 		<?php get_template_part('template-parts/single-heading');?>
-
+	</div>
+	<div class="col-md-12">
 		<?php if (has_post_thumbnail( $post->ID ) ): ?>
 			<div class="img-area mb-3" itemscope="" itemtype="http://schema.org/ImageObject">
 				<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
@@ -22,7 +23,8 @@
 				<div class="fill" style="background-image: url('<?php echo $image[0]; ?>')"></div>
 			</div>
 		<?php endif; ?>
-
+	</div>
+	<div class="col-md-10">		
 		<?php if ( is_active_sidebar( 'after-feature-image' ) ) : ?>
 			<div class="rd-ads">
 				<?php dynamic_sidebar('after-feature-image');?>
