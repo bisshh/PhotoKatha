@@ -6,7 +6,7 @@
 			</div>
 		</div>	
 		<?php $i=0; $id=get_the_ID(); $allcat = wp_get_post_categories($id); $categoryarr = array_diff($allcat,array(2)); $args = array('showposts' => 8, 'cat'=>implode(',',$categoryarr),'post__not_in'=>array($id));$loop = new WP_Query( $args );while($loop->have_posts()): $loop->the_post(); ?>
-		<div class="col-md-3">
+		<div class="col-md-3 mb-2">
 			<div class="r-wrap">
 				<div class="img-area">
 				<a href="<?php the_permalink();?>">
