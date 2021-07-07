@@ -14,10 +14,10 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-1">
+            <div class="col-md-1 col-2">
                 <a href="/"><img src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" alt="Photokatha logo" class="img-fluid f-img"></a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-10">
                 <h4>Photo Katha</h4>
                 <address>
                     +977-9841565626<br>
