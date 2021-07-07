@@ -277,6 +277,7 @@ footer {padding-top:$pad * 2; background: url('../img/f-bg.png') right lighten($
 }
 
 .related-post {
+    img {width: 100%; height: 35vh; object-fit: cover;}
     a {color: $rd-color !important;}
 }
 
