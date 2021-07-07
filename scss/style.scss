@@ -42,37 +42,6 @@ a, a:hover, a:focus {
 body, html {height:100%;}
 body {background:#2d3436;}
 
-nav {font-size:$fnt-sz + 2; font-weight: 600; border-bottom:2px solid $theme-color; border-top:1px solid darken($white, 20%); background:$white;
-	ul {padding-left:0;
-		li {position: relative;
-			.rd-info {position: absolute; background:$red; color:$white; font-size:$fnt-sz - 2; top:-12px; right:0; border:1px solid $white; border-radius:5px; padding:1px 10px;}
-		}
-	}
-}
-.offcanvas-start {width: 350px;}
-.offcanvas-header {
-	.logo {border-bottom: 1px solid darken($white, 15%); padding:$pad;
-		img {}
-	}
-}
-.offcanvas-body {
-	ul {
-		li {
-			a {display: block; padding:$pad; font-size: $fnt-sz + 4;}
-			ul {margin-left: $margin; background: darken($white, 10%); border-radius: 10px;
-				li {}
-			}
-		}
-	}
-}
-.offcanvas-footer {padding:$pad;
-	ul.social {text-align: left;
-		li {display: inline-block; margin: 0 $margin - 10; text-align: center;
-			a {display: block; width: 30px; height: 30px; line-height: 30px; border: 1px solid darken($white, 10%); border-radius: 100%;}
-		}
-	}
-}
-
 .banner {position: relative; height: 90%; overflow: hidden; background:$black;
     .shadow {content: ''; position: absolute; bottom: 0; left: 0; height: 30%; z-index: 2; width: 100%;  background-image: linear-gradient(to bottom,transparent,rgba(46,52,54,.1),  rgba(46,52,54,1));}
     header {position: absolute; top:0; width:100%; z-index: 9; height: 42px;

@@ -27,7 +27,7 @@
                     <!-- <strong>सुचना बिभाग दर्ता नं.</strong> - -->
                 </address>	
                 <ul class="social">
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.facebook.com/photokatha.news" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                     <li><a href="#"><i class="fab fa-youtube"></i></a></li>
                 </ul>				
