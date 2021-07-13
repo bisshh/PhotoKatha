@@ -130,7 +130,7 @@ function photokatha_scripts() {
 	wp_enqueue_style( 'owl-carousel-style', get_stylesheet_directory_uri().'/css/owl.carousel.min.css' );
 	wp_enqueue_style( 'owl-theme-default-style', get_stylesheet_directory_uri().'/css/owl.theme.default.min.css' );
 	wp_enqueue_style( 'photokatha-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_enqueue_style( 'techie-style', get_stylesheet_directory_uri().'/css/photokatha.min.css' );
+	wp_enqueue_style( 'techie-style', get_stylesheet_directory_uri().'/css/photokatha-new.min.css' );
 	wp_style_add_data( 'photokatha-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'photokatha-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
